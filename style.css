@@ -1,0 +1,331 @@
+html{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #CAE9FF;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.container{
+    display:flex;
+}
+
+  .menu{
+    position: absolute;
+    width: 1188px;
+    height: 110px;
+    left: 120px;
+    top: 37px; 
+	 
+  }
+
+  .logo{
+	  flex-basis: 40%;
+  }
+
+  ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #1B4965;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+}
+
+
+ol > li:hover
+{
+	background-color: #5FA8D3;
+}
+
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+.s_glowna{
+	display: flex;
+}
+.glowna {
+	padding: 2px;
+	margin: 0px;
+	flex-basis: 33%;
+  }
+
+  .powiekszenie{
+    overflow: hidden;
+    padding: 0;
+}
+.powiekszenie img {
+    transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+}
+.powiekszenie img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+.dol
+{
+	height:100px;
+	color:#62B6CB;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+
+
+}
+
+.dol p
+{
+	padding:2px 10px;
+    
+}
+
+.dol ul{
+    list-style-type: none;
+}
+
+.dol li{
+    text-align: right;
+}
+
+  .h3_g{
+	  text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+.form {
+    margin:3rem auto;
+    font-family:sans-serif;
+    max-width:40rem;
+}
+.form .form-row {
+    margin-bottom:1rem;
+}
+.form .form-row:last-child {
+    margin-bottom: 0;
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form .checkbox-cnt .state {
+    box-shadow:inset 0 1px 5px rgba(0,0,0,0.07);
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    border-radius:0.2rem;
+    font-family:sans-serif;
+    padding:0.8rem;
+    border:1px solid #aaa;
+    display: block;
+    width:100%;
+    color:#666;
+}
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus {
+    border-color:#9DC9F5;
+    box-shadow:inset 0 0 0 1px #9DC9F5, inset 0 1px 5px rgba(0,0,0,0.07);
+    outline:none;
+}
+.form textarea {
+    height:10rem;
+}
+.form label {
+    font-weight:bold;
+    display: block;
+    font-size:0.9rem;
+    margin-bottom:0.5rem;
+}
+.form .submit-btn {
+    font-family: sans-serif;
+    padding:1rem 2rem;
+    background: #70B81B;
+    border:0;
+    border-radius:0.2rem;
+    color:#fff;
+    font-size:1.1rem;
+    font-weight: bold;
+    transition: 0.3s background-color;
+}
+
+
+
+.ozespole{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.prawo{
+    float: right;
+}
+.lewo{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.poprawo{
+    flex-basis: 30%;
+    margin-left: 5px;
+}
+.polewo{
+    flex-basis:70%
+}
+
+aside{
+    text-align: center;
+}
+
+
+.muz_zdj{
+    width: 300px;
+    height: 240px;
+}
+.muzycy{
+color:black;
+
+}
+.muzycy:hover{
+color:red;
+}
+
+.logo_m{
+    height: 150px;
+    width: 900px;
+}
+
+h4{
+    font-size: 60px;
+    flex-basis: 100%;
+    float: left;
+    display: block;
+}
+.zdj_m{
+flex-basis: 40%;
+height: 30%;
+float: right;
+}
+
+.omuzyku{
+    font-size: 15px;
+    float: left;
+    display: block;
+}
+.tekst{
+    font-size: 20px;
+}
+
+.wymienianie{
+    color: #5FA8D3;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.wymienianie2{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+.piosenki_t{
+    list-style: none;
+}
+
+.listanu{
+    width: 20px;
+    height: 20px;
+}
+
+.przejscie{
+    text-decoration: none;
+    color: #5FA8D3 ;
+}
+.przejscie:hover{
+    text-decoration-line:underline;
+}
+.lewa_strona{
+    margin-left: 10px;
+    flex-basis: 70%;
+    flex-direction: column;
+}
+.prawa_strona{
+    flex-basis: 30%;
+    flex-direction: column;
+}
+
+.wnetrze{
+    display: flex;
+}
+
+.piosenka{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1B4965;
+}
+
+
+table tbody tr td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .plyty_t{
+    list-style: none;
+    text-align: center;
+}
+
+.wycentrowane{
+    text-align: center;
+    font-size: 10px;
+    color:#5FA8D3 ;
+}
+
+
+.pplyty{
+    margin: 0;
+    margin-bottom: 3px;
+    color: #5FA8D3;
+}
+
+
+.plyty{
+    width: 75px;
+    height: 75px;
+}
+.prawa_strona table{
+    border: 1px solid #62B6CB ;
+}
+
+.wymienianie2 .plyty_t li{
+    border: dashed #62B6CB;
+}

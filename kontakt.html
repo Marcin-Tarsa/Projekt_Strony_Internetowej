@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Queeics</title>
+</head>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="nawigacja">
+                        <ol>
+                            <li><a href="index.html">Strona główna</a></li>
+                            <li><a href="zespol.html">O zespole</a></li>
+                            <li><a href="piosenki.html">Piosenki</a></li>
+                            <li><a href="plyty.html">Albumy</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+
+<form class="form" id="contactForm" method="post">
+    <div class="form-row">
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" data-error="Wypełnij to pole">
+    </div>
+    <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" name="email" data-error="Wpisz poprawny email">
+    </div>
+    <div class="form-row">
+        <label for="wiadomosc">Wiadomość</label>
+        <textarea name="wiadomosc" required data-error="Musisz wypełnić pole"></textarea>
+    </div>
+    <div class="form-row">
+        <button type="submit" class="submit-btn">
+            Wyślij
+        </button>
+    </div>
+</form>
+<footer>
+    <div class="stopka">
+        <p>Copyright &copy; Marcin Tarsa</p>
+         <ul>
+            <li>Kontakt:</li>
+            <li>782 630 817</li>
+            <li>marcin.tarsa7@gmail.com</li>
+        </ul></p>
+    </div>
+</footer>
